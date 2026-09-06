@@ -1,0 +1,517 @@
+[
+  {
+    "step": 1,
+    "tool": "discover_links",
+    "args": {
+      "url": "https://ldtax.gov.bd/"
+    },
+    "result": {
+      "url": "https://ldtax.gov.bd/",
+      "links": [
+        {
+          "score": 8,
+          "label": "পরিপত্র প্রজ্ঞাপন",
+          "url": "https://ldtax.gov.bd/poripotro"
+        },
+        {
+          "score": 6,
+          "label": "সাধারণ জিজ্ঞাসাসমূহ",
+          "url": "https://ldtax.gov.bd/faq"
+        },
+        {
+          "score": 6,
+          "label": "ভূমিসেবা ফর্ম",
+          "url": "https://ldtax.gov.bd/vumiseba-form"
+        },
+        {
+          "score": 4,
+          "label": "নির্দেশিকা",
+          "url": "https://ldtax.gov.bd/manual"
+        },
+        {
+          "score": 2,
+          "label": "তথ্য অধিদপ্তর (পিআইডি)",
+          "url": "http://www.pressinform.gov.bd/"
+        }
+      ]
+    }
+  },
+  {
+    "step": 2,
+    "tool": "extract_tables",
+    "args": {
+      "url": "https://ldtax.gov.bd/poripotro"
+    },
+    "result": {
+      "url": "https://ldtax.gov.bd/poripotro",
+      "tables": 1,
+      "preview": [
+        [
+          {
+            "cells": [
+              "ক্রমিক",
+              "বিষয়",
+              "ফাইল (PDF)"
+            ],
+            "links": []
+          },
+          {
+            "cells": [
+              "১",
+              "লবণমহাল ও জেলা লবণমহাল কমিটি গঠন সংক্রান্ত।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/qc6YuJgYmVJABJdMGg95n7LV05T6QKHbWNlaIhha.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "২",
+              "চিংড়ীমহাল ও জেলা চিংড়ীমহাল কমিটি গঠন সংক্রান্ত।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/9Sn33CRf9yymYZVNo4swp1Gb2SJt6Uyt4NLztVcr.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৩",
+              "প্রজ্ঞাপন",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/5qH5AcB4P09Caarp6cYeIkrZK7rT2aAwTbZg5EDk.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৪",
+              "আবেদন, নোটিশ জারি, রেকর্ড সংশোধন এবং মিঊটেশনের ফি সংশোধন সংক্রান্ত।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/m1Y4ojMzOhc7xzikXoWiI19TzZyu4Z4WKB5nV0ef.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৫",
+              "ভূমি উন্নয়ন করের পরিবর্তিত হার।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/ysX7eX1VoysI79Vslw7ZTiFLqH9JtjBOXYX4jp0F.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৬",
+              "উন্নয়ন প্রকল্পে জলমহাল প্রাপ্তির আবেদন দাখিল ও ইজারা মূল্য পরিশোধ পদ্ধতি।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/rzPlhwvp4UGGUBJs3UH0SrJMDevcmOcEtJMHBXGh.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৭",
+              "ই-নামজারী সিস্টেম- এর পাইলট প্রকল্প বাস্তবায়নের লক্ষ্যে নির্বাচিত উপজেলার ব্যবহারকারীদের প্রশিক্ষণ প্রদানের উদ্দেশে প্র",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/B3uIB4OXzJ6gRgijKU6nzLoDWKr96nFxu40jfQBE.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৮",
+              "Memorandum of understanding (MOU) স্বাক্ষরের অনুমোদন প্রসঙ্গ।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/Su3wjkSy0euTCF8ABg2o5vSjDLwgcfCdDOIMsSRj.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৯",
+              "উপজেলা ভূমি অফিস কর্তৃক নামজারী সেবা প্রদান সংক্রান্ত।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/EaOxp3oBJskIsPF7KDhk64BddEcfthZvD2eRprTg.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১০",
+              "ভূমি সংস্কার বোর্ড ও প্রধানমন্ত্রীর কার্যালয়ের একসেস টু ইনফরমেশন (এটুআই) প্রোগ্রামের যৌথ উদ্যোগে তৈরীকৃত ই-নামজারী সিস্",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/L45Vut1emRDl7w8LpFbLxlnbABW8nn1DNxoMhxVk.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১১",
+              "ভূমি সংস্কার বোর্ড ও প্রধানমন্ত্রীর কার্যালয়ের একসেস টু ইনফরমেশন (এটুআই) প্রোগ্রামের যৌথ উদ্যোগে তৈরীকৃত ই-নামজারী সিস্",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/ruPYIo0E543p9JxesAopt4Zhy4QUwyHOdJT1rCRg.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১২",
+              "প্রজ্ঞাপন",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/QD6PXhWcDFGRpPyRnuafQIY2GAby2TMjZbLd2vBO.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১৩",
+              "ভুমি সংস্কার বোর্ড এর ই- নামজারী বিষয়ক প্রশিক্ষণের সার্বিক কার্যক্রম মূল্যায়ন বিষয়ক সভার কার্যবিবরণী।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/BUzhNU29YE0By2vZ6tBs9pOXEyFysfq7L1Q5nfKb.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১৪",
+              "সহকারী কমিশনার (ভূমি) এবং ইউনিয়ন ভূমি সহকারী কর্মকর্তা ভূমি মালিকদের জিম্মি করে বিভিন্ন অপরাধে জড়িয়ে পড়ছে – এহেন অবস",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/wrxV6zxrzuiOxkKrfuKxvHoc2nnIiWQtAbkysqBV.pdf"
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "step": 3,
+    "tool": "extract_tables",
+    "args": {
+      "url": "https://ldtax.gov.bd/manual"
+    },
+    "result": {
+      "url": "https://ldtax.gov.bd/manual",
+      "tables": 0,
+      "preview": []
+    }
+  },
+  {
+    "step": 4,
+    "tool": "extract_tables",
+    "args": {
+      "url": "https://ldtax.gov.bd/vumiseba-form"
+    },
+    "result": {
+      "url": "https://ldtax.gov.bd/vumiseba-form",
+      "tables": 1,
+      "preview": [
+        [
+          {
+            "cells": [
+              "ক্রমিক",
+              "বিষয়",
+              "ফাইল (PDF)"
+            ],
+            "links": []
+          },
+          {
+            "cells": [
+              "১",
+              "অকৃষি খাস জমি লীজ সংক্রান্ত ফরম।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/RDfH3SOXwpwDn0HM3yiab0F6yhZRp2QxoSAmYGBL.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "২",
+              "লীজ নবায়ন আবেদন ফরম।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/jNA02lrXVm4J8KYJL8tMeypYgD1POk7DgLI1uBeB.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৩",
+              "অকৃষি খাস জমি দীর্ঘ মেয়াদি লিজ ফরম।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/74drRY2rJjYzKwGM734772V2eHf9DSS0h2ybb9KQ.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৪",
+              "হলফনামা",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/Wbxdj2tjJ1D5v6ptLI3USQNWc3La7lG5qvtMFCjw.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৫",
+              "অছিয়তনামা/বন্টননামা/ক্রয়সূত্রে/হেবাসূত্রে/ওয়ারিশসূত্রে নামজারির আবেদন (জাতীয় গৃহায়ন কর্তৃপক্ষ)।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/UBFQuJRSNnLIeZc9QRpAj6GVYAoc1Fn4oh7EhveS.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৬",
+              "ফ্ল্যাট হস্তান্তর প্রস্তাব/আবেদনের নমুনা।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/8TQG5gUQztI0rIYtDUW5AUDcGLohiF4IMlY4rpx1.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৭",
+              "এল,এ কেস নং- ফরম ক নোটিশ",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/wIwjGrGNEDvxN21ei0a5MtXHGqRve97hTA5qibsV.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৮",
+              "খতিয়ান ফরম (ফরম নং ৫৪৬২)",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/8CeKczQzM3EMv2bdMzsNn8SNIiHw9P0KsqCdKPmb.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "৯",
+              "ভূমি উন্নয়ন কর মওকুফ বা হ্রাসের জন্য তহসিলদার বরাবর সুপারিশ ফরম।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/Te6gAa2YIDHlMitFc1jCX3fR0RLPaQEaYkx1z4Op.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১০",
+              "অকৃষি খাস জমি স্বল্প মেয়াদি লিজ ফরম।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/8PR6jKHOgPT2hhh67mhyew8UjYuPRfsx7PDEGFMS.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১১",
+              "মহালের কাগজ পরিবর্তনের জন্য আবেদন ফরম।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/ps3cGoZ6My9rxS74LZBokHeaTmY5pLFILHBEWwfG.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১২",
+              "ফরম নং ১০৩০ সার্টিফিকেট কেসের খাতকের প্রতি নোটিশ।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/D5lXpV9tvvgGELOM8yaMX0q8yzgCk6oavNXKH9pS.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১৩",
+              "ক্রেতা, বিক্রেতার তথ্যাবলী।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/IT742AyXqwbnUbRGvbIJznzLIs8IIbf1zdLxfwME.pdf"
+            ]
+          },
+          {
+            "cells": [
+              "১৪",
+              "নামজারীর আবেদনপত্র।",
+              "ডাউনলোড (PDF)"
+            ],
+            "links": [
+              "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/7RNBc313YytoEA9M4mU2hHzCIAXF2RK5yAZrmPxW.pdf"
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "step": 5,
+    "tool": "extract_tables",
+    "args": {
+      "url": "https://ldtax.gov.bd/faq"
+    },
+    "result": {
+      "url": "https://ldtax.gov.bd/faq",
+      "tables": 0,
+      "preview": []
+    }
+  },
+  {
+    "step": 6,
+    "tool": "extract_tables",
+    "args": {
+      "url": "http://www.pressinform.gov.bd/"
+    },
+    "result": {
+      "url": "http://www.pressinform.gov.bd/",
+      "tables": 0,
+      "preview": []
+    }
+  },
+  {
+    "step": 7,
+    "tool": "detect_pdf",
+    "args": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/m1Y4ojMzOhc7xzikXoWiI19TzZyu4Z4WKB5nV0ef.pdf"
+    },
+    "result": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/m1Y4ojMzOhc7xzikXoWiI19TzZyu4Z4WKB5nV0ef.pdf",
+      "encoding": "legacy_unknown",
+      "bengali_ratio": 0.0,
+      "note": "An unrecognised legacy Bengali font. No mapping table exists - skip it."
+    }
+  },
+  {
+    "step": 8,
+    "tool": "detect_pdf",
+    "args": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/ysX7eX1VoysI79Vslw7ZTiFLqH9JtjBOXYX4jp0F.pdf"
+    },
+    "result": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/ysX7eX1VoysI79Vslw7ZTiFLqH9JtjBOXYX4jp0F.pdf",
+      "encoding": "legacy_unknown",
+      "bengali_ratio": 0.0,
+      "note": "An unrecognised legacy Bengali font. No mapping table exists - skip it."
+    }
+  },
+  {
+    "step": 9,
+    "tool": "detect_pdf",
+    "args": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/rzPlhwvp4UGGUBJs3UH0SrJMDevcmOcEtJMHBXGh.pdf"
+    },
+    "result": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/rzPlhwvp4UGGUBJs3UH0SrJMDevcmOcEtJMHBXGh.pdf",
+      "encoding": "legacy_unknown",
+      "bengali_ratio": 0.0,
+      "note": "An unrecognised legacy Bengali font. No mapping table exists - skip it."
+    }
+  },
+  {
+    "step": 10,
+    "tool": "detect_pdf",
+    "args": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/B3uIB4OXzJ6gRgijKU6nzLoDWKr96nFxu40jfQBE.pdf"
+    },
+    "result": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/B3uIB4OXzJ6gRgijKU6nzLoDWKr96nFxu40jfQBE.pdf",
+      "encoding": "empty",
+      "bengali_ratio": 0.0,
+      "note": "No text layer (scanned). OCR would be needed; not wired in."
+    }
+  },
+  {
+    "step": 11,
+    "tool": "detect_pdf",
+    "args": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/EaOxp3oBJskIsPF7KDhk64BddEcfthZvD2eRprTg.pdf"
+    },
+    "result": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/EaOxp3oBJskIsPF7KDhk64BddEcfthZvD2eRprTg.pdf",
+      "encoding": "empty",
+      "bengali_ratio": 0.0,
+      "note": "No text layer (scanned). OCR would be needed; not wired in."
+    }
+  },
+  {
+    "step": 12,
+    "tool": "detect_pdf",
+    "args": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/BUzhNU29YE0By2vZ6tBs9pOXEyFysfq7L1Q5nfKb.pdf"
+    },
+    "result": {
+      "url": "https://admin.ldtax.gov.bd/storage/PoripotroProggaponPDFDOCs/BUzhNU29YE0By2vZ6tBs9pOXEyFysfq7L1Q5nfKb.pdf",
+      "encoding": "empty",
+      "bengali_ratio": 0.0,
+      "note": "No text layer (scanned). OCR would be needed; not wired in."
+    }
+  },
+  {
+    "step": 13,
+    "tool": "detect_pdf",
+    "args": {
+      "url": "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/Te6gAa2YIDHlMitFc1jCX3fR0RLPaQEaYkx1z4Op.pdf"
+    },
+    "result": {
+      "url": "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/Te6gAa2YIDHlMitFc1jCX3fR0RLPaQEaYkx1z4Op.pdf",
+      "encoding": "empty",
+      "bengali_ratio": 0.0,
+      "note": "No text layer (scanned). OCR would be needed; not wired in."
+    }
+  },
+  {
+    "step": 14,
+    "tool": "detect_pdf",
+    "args": {
+      "url": "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/D5lXpV9tvvgGELOM8yaMX0q8yzgCk6oavNXKH9pS.pdf"
+    },
+    "result": {
+      "url": "https://admin.ldtax.gov.bd/storage/vhumi_sheba_formsPDFs/D5lXpV9tvvgGELOM8yaMX0q8yzgCk6oavNXKH9pS.pdf",
+      "encoding": "empty",
+      "bengali_ratio": 0.0,
+      "note": "No text layer (scanned). OCR would be needed; not wired in."
+    }
+  },
+  {
+    "step": 15,
+    "tool": "give_up",
+    "args": {
+      "category": "land_tax",
+      "reason": "visited 14 action(s); 8 matching document(s); no decodable document"
+    },
+    "result": {
+      "saved": "data/drafts\\land_tax.notfound.json",
+      "reason": "visited 14 action(s); 8 matching document(s); no decodable document"
+    }
+  }
+]

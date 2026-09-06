@@ -1,0 +1,39 @@
+{
+  "_source": "জন্ম ও মৃত্যু নিবন্ধন বিধিমালা, ২০১৮ (Birth and Death Registration Rules 2018), published in the Bangladesh Gazette, 8 March 2018.",
+  "_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d",
+  "_source_document": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-orgbdr/2024/12/3a0794717d964d90a71794fb8c81857d.pdf",
+  "_source_last_updated": "2026-03-30",
+  "_method": [
+    "Decoded from the legacy-Bijoy gazette PDF with tools/bn_pdf.py + tools/bijoy.py, then read by a human and written as English checklist items.",
+    "Items are ENGLISH SUMMARIES of the Rules' Bengali legal prose, not verbatim quotes. Two reasons: the decoder still leaves artifacts in this document (জনন্ম for জন্ম), and statutory prose is not a checklist. Every item cites the rule it came from.",
+    "This is the AUTHORITATIVE source for required documents - the statutory instrument itself, not a help page or a screenshot manual."
+  ],
+  "birth_registration": {
+    "rule": "Rule 9(1)",
+    "within_45_days": [
+      {"doc": "Proof of place and date of birth: the release certificate (ছাড়পত্র) from the medical institution, OR an attested copy of the birth certificate issued by that institution, OR certification from the birth attendant, OR other proof", "rule": "Rule 9(1)(ক)(অ)", "mandatory": true},
+      {"doc": "Proof of permanent address: an up-to-date tax payment receipt against the residence declared by the person, father, mother, grandfather or grandmother, OR the permanent address as declared in the National ID or passport of the father, mother, grandfather or grandmother", "rule": "Rule 9(1)(ক)(আ)", "mandatory": true},
+      {"doc": "Where applicable, to prevent duplicate registration: the birth registration number or National ID number of the person's father and mother, together with the corresponding certificate", "rule": "Rule 9(1)(ক)(আ)", "mandatory": false},
+      {"doc": "If the permanent address was lost to river erosion or a similar cause: the purchase deed for the land or house, plus khajna (land tax) and tax payment receipts for the new residence", "rule": "Rule 9(1)(ক)(ই)", "mandatory": false},
+      {"doc": "If the person has no permanent address: write 'অপ্রাপ্য' (not available) in that field and register with the registrar of the place of birth, with certification from the responsible officer that no permanent address exists", "rule": "Rule 9(1)(ক)(ঈ)", "mandatory": false},
+      {"doc": "A declaration on the application form by the applicant that no previous birth registration exists", "rule": "Rule 9(1)(ক)(উ)", "mandatory": true}
+    ],
+    "after_45_days_additional": [
+      {"doc": "If applying within 5 years of birth: certification from the EPI (immunisation) worker on the completed application form, OR a copy of the EPI card", "rule": "Rule 9(1)(খ)(অ)", "mandatory": true},
+      {"doc": "If applying more than 5 years after birth: an age certificate issued by a competent physician", "rule": "Rule 9(1)(খ)(আ)", "mandatory": true},
+      {"doc": "A government-run Primary School Certificate or Junior School Certificate, or an education board Secondary School Certificate or equivalent", "rule": "Rule 9(1)(খ)(ই)", "mandatory": false}
+    ]
+  },
+  "death_registration": {
+    "rule": "Rule 11(3) / 12(3)",
+    "one_or_more_of": [
+      {"doc": "A certificate of declaration of death issued by the attending physician", "rule": "(ক)", "mandatory": false},
+      {"doc": "A death certificate issued by the relevant medical institution", "rule": "(খ)", "mandatory": false},
+      {"doc": "A copy of the post-mortem (ময়না তদন্ত) report for the deceased", "rule": "(গ)", "mandatory": false},
+      {"doc": "Any other death-related document the registrar considers necessary", "rule": "(ঘ)", "mandatory": false}
+    ],
+    "after_45_days_additional": [
+      {"doc": "A written explanation of the reason for the delay, in addition to the certifications or documents already required", "rule": "Rule 11(9)", "mandatory": true}
+    ]
+  }
+}

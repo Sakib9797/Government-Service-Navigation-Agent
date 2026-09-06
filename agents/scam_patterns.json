@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "created": "2026-09-04",
+  "policy": [
+    "CURATED AND SOURCED ONLY. explain.md 5.3: the LLM must never generate a scam warning.",
+    "Every entry needs source_url + source_date + verified_by, or it does not ship.",
+    "Prefer POSITIVE sourced facts ('this is free', 'only this office can issue it') over accusations.",
+    "A positive fact from the government is both safer and more useful than a warning: it cannot defame a real office, and it gives the citizen something checkable.",
+    "Never name a person, a firm, or a specific office as fraudulent."
+  ],
+  "patterns": [
+    {
+      "id": "birth_reg_free_45_days",
+      "category": "birth_registration",
+      "kind": "official_fact",
+      "claim_bn": "জন্ম বা মৃত্যুর ৪৫ দিনের মধ্যে নিবন্ধন সম্পূর্ণ বিনা ফিসে করা হয়।",
+      "claim_en": "Registration within 45 days of birth is free of charge. After 45 days it is BDT 25, and after 5 years BDT 50.",
+      "why_it_matters_en": "A fee demanded for registering a newborn inside the 45-day window is not an official fee.",
+      "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+      "source_date": "2026-04-04",
+      "verified_by": "GSNA Step 2 - parsed from the official fee table",
+      "confidence": "high"
+    },
+    {
+      "id": "etin_registration_free",
+      "category": "tin_registration",
+      "kind": "official_fact",
+      "claim_bn": "নতুন ই-টিআইএন রেজিস্ট্রেশন বিনামূল্যে।",
+      "claim_en": "New e-TIN registration is free of charge and is issued online, immediately.",
+      "why_it_matters_en": "Any charge asked for obtaining a TIN is not an official government fee.",
+      "source_url": "https://nbr.gov.bd/information-library/cconbr/eng",
+      "source_document": "https://nbr.gov.bd/uploads/cconbr/Final_Draft_Citizen_2026.pdf",
+      "source_date": "2026-07-16",
+      "verified_by": "GSNA Step 2 - NBR Citizen Charter",
+      "confidence": "high",
+      "caveat": "NBR labels the published file a draft (Final_Draft_Citizen_2026.pdf). The Bengali text itself is now cleanly decoded (tools/bn_pdf.py), so the 'free of charge' reading is verified, not inferred."
+    },
+    {
+      "id": "porcha_only_from_dc_record_room",
+      "category": "land_record",
+      "kind": "official_fact",
+      "claim_bn": "জেলা প্রশাসকের রেকর্ড রুম ছাড়া অন্য কোন দপ্তর হতে খতিয়ানের সার্টিফাইড কপি (পর্চা) সংগ্রহের সুযোগ নেই।",
+      "claim_en": "After records are transferred, a certified copy of a khatian (porcha) can be obtained ONLY from the Deputy Commissioner's Record Room - no other office can issue one.",
+      "why_it_matters_en": "Anyone offering to supply a certified porcha through another office or channel cannot be providing a genuine certified copy.",
+      "source_url": "https://dlrs.gov.bd/pages/static-pages/6922dfd8933eb65569e2449b",
+      "source_date": "2014-04-01",
+      "verified_by": "GSNA Step 2 - Directorate of Land Records & Surveys",
+      "confidence": "medium",
+      "caveat": "Source page self-reports 2014; the office structure may have changed. Re-verify before presenting as current."
+    },
+    {
+      "id": "passport_official_grievance_channel",
+      "category": "passport",
+      "kind": "official_recourse",
+      "claim_en": "If a passport office does not resolve your issue, there is a published escalation chain: the designated officer, then the Grievance Redress Officer (অনিক), then the Appeal Officer, then the Cabinet Division's complaint cell - with stated time limits (30/20/60 working days).",
+      "why_it_matters_en": "There is a free official route for a stuck application, so paying an intermediary to 'push' a file is never the only option.",
+      "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+      "source_date": "2026-05-11",
+      "verified_by": "GSNA Step 2 - DIP citizen charter, grievance table",
+      "confidence": "high"
+    },
+    {
+      "id": "death_reg_free_45_days",
+      "category": "death_registration",
+      "kind": "official_fact",
+      "claim_bn": "মৃত্যুর ৪৫ দিনের মধ্যে নিবন্ধন সম্পূর্ণ বিনা ফিসে করা হয়।",
+      "claim_en": "Death registration within 45 days is free of charge. After 45 days it is BDT 25, and after 5 years BDT 50.",
+      "why_it_matters_en": "A fee demanded for registering a death inside the 45-day window is not an official fee, at a time when families are least able to argue.",
+      "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+      "source_date": "2026-04-04",
+      "verified_by": "GSNA Step 5 - official fee table",
+      "confidence": "high"
+    }
+  ]
+}

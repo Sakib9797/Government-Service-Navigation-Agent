@@ -1,0 +1,141 @@
+{
+  "_comment": "Candidate sources for the GSNA audit, drawn from explain.md section 3 plus additional portals worth testing. 'category' must later match taxonomy.json. Presence here means 'worth checking', NOT 'verified'.",
+  "sources": [
+    {
+      "id": "national_portal",
+      "category": "_index",
+      "tier_guess": "primary",
+      "url": "https://bangladesh.gov.bd/"
+    },
+    {
+      "id": "epassport_home",
+      "category": "passport",
+      "tier_guess": "primary",
+      "url": "https://www.epassport.gov.bd/"
+    },
+    {
+      "id": "epassport_fees",
+      "category": "passport",
+      "tier_guess": "primary",
+      "url": "https://www.epassport.gov.bd/instructions/passport-fees",
+      "status_note": "guessed path returns the SPA shell; real fee source not yet found - look for a PDF circular on dip.gov.bd"
+    },
+    {
+      "id": "dip_home",
+      "category": "passport",
+      "tier_guess": "primary",
+      "url": "https://www.dip.gov.bd/",
+      "cms": "V2Ministry",
+      "tls_verify": false
+    },
+    {
+      "id": "nidw_home",
+      "category": "nid",
+      "tier_guess": "primary",
+      "url": "https://services.nidw.gov.bd/"
+    },
+    {
+      "id": "ecs_home",
+      "category": "nid",
+      "tier_guess": "primary",
+      "url": "https://www.ecs.gov.bd/"
+    },
+    {
+      "id": "land_ministry",
+      "category": "land",
+      "tier_guess": "primary",
+      "url": "https://minland.gov.bd/",
+      "cms": "V2Ministry",
+      "tls_verify": false
+    },
+    {
+      "id": "land_portal",
+      "category": "land",
+      "tier_guess": "primary",
+      "url": "https://land.gov.bd/"
+    },
+    {
+      "id": "dlrms",
+      "category": "land",
+      "tier_guess": "primary",
+      "url": "https://dlrms.land.gov.bd/",
+      "status_note": "Replaces eporcha.gov.bd, which has NO DNS as of 2026-09-04. Successor status UNCONFIRMED. Expired TLS cert; JS SPA.",
+      "tls_verify": false
+    },
+    {
+      "id": "emutation",
+      "category": "land",
+      "tier_guess": "primary",
+      "url": "https://mutation.land.gov.bd/"
+    },
+    {
+      "id": "ldtax",
+      "category": "land",
+      "tier_guess": "primary",
+      "url": "https://ldtax.gov.bd/"
+    },
+    {
+      "id": "nbr_home",
+      "category": "tax",
+      "tier_guess": "primary",
+      "url": "https://nbr.gov.bd/"
+    },
+    {
+      "id": "etaxnbr",
+      "category": "tax",
+      "tier_guess": "primary",
+      "url": "https://etaxnbr.gov.bd/"
+    },
+    {
+      "id": "brta_home",
+      "category": "driving",
+      "tier_guess": "primary",
+      "url": "https://brta.gov.bd/",
+      "cms": "V2Ministry",
+      "tls_verify": false
+    },
+    {
+      "id": "brta_bsp",
+      "category": "driving",
+      "tier_guess": "primary",
+      "url": "https://bsp.brta.gov.bd/"
+    },
+    {
+      "id": "bdris",
+      "category": "birth_cert",
+      "tier_guess": "primary",
+      "url": "https://bdris.gov.bd/"
+    },
+    {
+      "id": "dncc",
+      "category": "trade_lic",
+      "tier_guess": "primary",
+      "url": "https://dncc.gov.bd/",
+      "cms": "V2Ministry",
+      "tls_verify": false
+    },
+    {
+      "id": "dscc",
+      "category": "trade_lic",
+      "tier_guess": "primary",
+      "url": "https://dscc.gov.bd/",
+      "cms": "V2Ministry",
+      "tls_verify": false
+    },
+    {
+      "id": "rjsc",
+      "category": "trade_lic",
+      "tier_guess": "primary",
+      "url": "https://www.roc.gov.bd/",
+      "cms": "V2Ministry",
+      "tls_verify": false
+    },
+    {
+      "id": "mygov",
+      "category": "_index",
+      "tier_guess": "primary",
+      "url": "https://www.mygov.bd/"
+    }
+  ],
+  "_cms_note": "Sources tagged cms=V2Ministry share one CMS (Oracle object storage, bucket office-<slug>). Write one parameterised scraper for all of them."
+}

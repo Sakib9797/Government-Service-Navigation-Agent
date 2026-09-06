@@ -1,0 +1,13 @@
+{
+  "_comment": "Per-office config for the shared V2Ministry CMS scraper. accept_categories gates which taxonomy ids an office is allowed to produce, so a charter row about staff pensions cannot become a citizen service record.",
+  "offices": [
+    {
+      "office_id": "brta",
+      "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+      "charter_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+      "published": "2021-02-01",
+      "apply_portal": "https://bsp.brta.gov.bd/",
+      "accept_categories": ["driving_license", "vehicle_registration"]
+    }
+  ]
+}

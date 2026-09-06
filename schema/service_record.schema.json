@@ -1,0 +1,262 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GSNA service record",
+  "description": "One normalized government service. Corrects two flaws in the explain.md section-3 schema: (1) scam_warnings is REMOVED - scam data lives only in agents/scam_patterns.json so a scraper cannot write into it; (2) fees are a keyed lookup read directly by the composer, never retrieved by embedding similarity.",
+  "type": "object",
+  "required": [
+    "category",
+    "last_scraped_date",
+    "office",
+    "service_name_bn",
+    "service_name_en",
+    "source_last_updated",
+    "source_url",
+    "verification"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "category": {
+      "type": "string",
+      "description": "MUST be an id from data/taxonomy.json. Join key for retrieval filter and scam lookup."
+    },
+    "service_name_en": {
+      "type": "string"
+    },
+    "service_name_bn": {
+      "type": "string"
+    },
+    "office": {
+      "type": "string",
+      "description": "Responsible office/ministry as printed by the source."
+    },
+    "locality": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Set when the service differs by place (trade_license, land_tax). null = nationally uniform. A locality-varying service with locality:null is a bug."
+    },
+    "variants": {
+      "type": "array",
+      "description": "Sub-cases within one service, e.g. passport new vs renewal, or 48-page vs 64-page. Keeps the taxonomy small without collapsing real differences.",
+      "items": {
+        "type": "object",
+        "required": [
+          "variant_id",
+          "label_en",
+          "required_docs",
+          "steps"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "variant_id": {
+            "type": "string"
+          },
+          "label_en": {
+            "type": "string"
+          },
+          "label_bn": {
+            "type": "string"
+          },
+          "required_docs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "doc",
+                "source_url"
+              ],
+              "properties": {
+                "doc": {
+                  "type": "string"
+                },
+                "mandatory": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "source_url": {
+                  "type": "string",
+                  "description": "Where THIS document requirement was read. Per-item, because doc lists are often assembled from several pages."
+                }
+              }
+            }
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "step",
+                "source_url"
+              ],
+              "properties": {
+                "step": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string",
+                  "description": "Online portal, or which office counter."
+                },
+                "source_url": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "fees": {
+      "type": "array",
+      "description": "KEYED LOOKUP, not free text. The composer reads this directly by fee_key; it is never embedded or vector-retrieved, because retrieving a fee by semantic similarity is the easiest way to state a wrong number.",
+      "items": {
+        "type": "object",
+        "required": [
+          "fee_key",
+          "amount_bdt",
+          "source_url",
+          "verification"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "fee_key": {
+            "type": "string",
+            "description": "Stable machine key, e.g. 'regular_48page_5yr'."
+          },
+          "label_en": {
+            "type": "string"
+          },
+          "label_bn": {
+            "type": "string"
+          },
+          "amount_bdt": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "null means NOT VERIFIED. The composer must render 'not verified - check with the office', never guess or omit silently."
+          },
+          "includes_vat": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "source_document": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "PDF circular/gazette this came from, if Tier 2."
+          },
+          "verification": {
+            "$ref": "#/definitions/verification"
+          },
+          "source_last_updated": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date",
+            "description": "Self-declared update date of the page this fee came from. Per-fee because the document list and the fee schedule are different pages that go stale at different rates (observed: passport docs 2026-05-11, passport fees 2020-01-20)."
+          },
+          "raw_text": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Verbatim fee cell from the source charter. Kept whenever parsing was refused (conditional/ratio/instalment pricing) so a human can read exactly what the government published instead of re-fetching."
+          }
+        }
+      }
+    },
+    "office_location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "contact": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Phone/helpline, for services where the honest answer is 'call them'."
+    },
+    "apply_portal": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Transactional URL for the user. Usually a JS SPA we do NOT scrape."
+    },
+    "source_url": {
+      "type": "string",
+      "description": "Primary page this record was built from."
+    },
+    "last_scraped_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date WE fetched the page. Says nothing about content age - see source_last_updated."
+    },
+    "verification": {
+      "$ref": "#/definitions/verification"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_last_updated": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "description": "The date the SOURCE PAGE declares its own content was last updated (extracted by tools/staleness.py). NOT the fetch date. Added after finding the passport fee page self-reports 2020-01-20 while last_scraped_date would read 2026-09-04 - scraping a stale page must not make it look fresh. The Freshness Agent MUST key on this field, falling back to last_scraped_date only when it is null (and then saying so)."
+    }
+  },
+  "definitions": {
+    "verification": {
+      "type": "object",
+      "description": "Required everywhere a factual claim is made. explain.md 5.1: an unverified fee can cost a real user money, so unverified must be representable and must render as such.",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "unverified",
+            "source_read",
+            "human_confirmed"
+          ],
+          "description": "unverified = do not show as fact. source_read = read off an official page. human_confirmed = a person checked it against the source document or the office."
+        },
+        "verified_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "method": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "e.g. 'read PDF circular', 'phoned office', 'cross-checked news report'."
+        }
+      }
+    }
+  }
+}
