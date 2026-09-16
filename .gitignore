@@ -1,6 +1,8 @@
 # Secrets - never commit
 .env
 *.key
+.env.*
+!.env.example
 
 # Python
 __pycache__/
@@ -8,18 +10,19 @@ __pycache__/
 .venv/
 venv/
 
-# Fetched/derived data: re-creatable, and data/raw is ~4MB of cached gov pages
-data/raw/
-data/ocr_crops/
+# Data is kept private and not published with the code
+data/
 rag/index/
-data/drift/
-data/feedback.jsonl
 
-# Keep: data/services, data/taxonomy.json, data/checklists_bdr.json,
-# data/source_audit.json, data/pdf_index.json, data/drafts - these are the
-# project's actual output and should be versioned.
+# Private project notes
+explain.md
 
 # Local editor/tooling artefacts
 .vscode/
 .idea/
 *.local
+*.log
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.ipynb_checkpoints/
