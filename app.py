@@ -86,4 +86,5 @@ with gr.Blocks(title="সরকারি সেবা সহায়ক / Govt 
     rbtn.click(report, [q, out, note], [rout])
 
 if __name__ == "__main__":
-    demo.launch(server_name="127.0.0.1", server_port=7860)
+    import sys
+    demo.launch(server_name="127.0.0.1", server_port=7860, share="--share" in sys.argv)
