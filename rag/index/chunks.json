@@ -1,0 +1,1581 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "dim": 384,
+  "chunks": [
+    {
+      "id": "birth_registration::identity",
+      "text": "জন্ম নিবন্ধন | Birth registration and certificate | রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::steps",
+      "text": "জন্ম নিবন্ধন Birth registration application — process: 1. Apply online for birth registration.",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "birth_registration_application"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc0",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: Proof of place and date of birth: the release certificate (ছাড়পত্র) from the medical institution, OR an attested copy of the birth certificate issued by that institution, OR certification from the birth attendant, OR other proof  (Rule 9(1)(ক)(অ))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc1",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: Proof of permanent address: an up-to-date tax payment receipt against the residence declared by the person, father, mother, grandfather or grandmother, OR the permanent address as declared in the National ID or passport of the father, mother, grandfather or grandmother  (Rule 9(1)(ক)(আ))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc2",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: Where applicable, to prevent duplicate registration: the birth registration number or National ID number of the person's father and mother, together with the corresponding certificate  (Rule 9(1)(ক)(আ))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc3",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: If the permanent address was lost to river erosion or a similar cause: the purchase deed for the land or house, plus khajna (land tax) and tax payment receipts for the new residence  (Rule 9(1)(ক)(ই))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc4",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: If the person has no permanent address: write 'অপ্রাপ্য' (not available) in that field and register with the registrar of the place of birth, with certification from the responsible officer that no permanent address exists  (Rule 9(1)(ক)(ঈ))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc5",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: A declaration on the application form by the applicant that no previous birth registration exists  (Rule 9(1)(ক)(উ))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc6",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: [if applying after 45 days] If applying within 5 years of birth: certification from the EPI (immunisation) worker on the completed application form, OR a copy of the EPI card  (Rule 9(1)(খ)(অ))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc7",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: [if applying after 45 days] If applying more than 5 years after birth: an age certificate issued by a competent physician  (Rule 9(1)(খ)(আ))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::birth_registration_application::doc8",
+      "text": "জন্ম নিবন্ধন Birth registration application — required document: [if applying after 45 days] A government-run Primary School Certificate or Junior School Certificate, or an education board Secondary School Certificate or equivalent  (Rule 9(1)(খ)(ই))",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "birth_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "birth_registration::fee_labels",
+      "text": "জন্ম নিবন্ধন Birth registration and certificate — fee categories: জন্ম বা মৃত্যুর ৪৫ (পঁয়তাল্লিশ) দিন পর্যন্ত কোন ব্যক্তির জন্ম বা মৃত্যু নিবন্ধন - / জন্ম বা মৃত্যুর ৪৫ (পঁয়তাল্লিশ) দিন পর হইতে ৫ (পাঁচ) বৎসর পর্যন্ত কোন ব্যক্তির জন্ম বা মৃত্যু নিবন্ধন (সাকুল্য) - / জন্ম বা মৃত্যুর ৫ (পাঁচ) বৎসর পর হইতে কোন ব্যক্তির জন্ম বা মৃত্যু নিবন্ধন (সাকুল্য) - / জন্ম তারিখ সংশোধনের জন্য আবেদন ফি - / জন্ম তারিখ ব্যতীত নাম, পিতার নাম, মাতার নাম, ঠিকানা ইত্যাদি অন্যান্য তথ্য সংশোধনের জন্য আবেদন ফি - / বাংলা ও ইংরেজি উভয় ভাষায় মূল সনদ বা তথ্য সংশোধনের পর সনদের কপি সরবরাহ / বাংলা ও ইংরেজি উভয় ভাষায় সনদের নকল সরবরাহ",
+      "meta": {
+        "category": "birth_registration",
+        "service_name_en": "Birth registration and certificate",
+        "service_name_bn": "জন্ম নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "fee_labels",
+        "note": "amounts deliberately excluded from the index; read them from the record"
+      }
+    },
+    {
+      "id": "death_registration::identity",
+      "text": "মৃত্যু নিবন্ধন | Death registration and certificate | রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+      "meta": {
+        "category": "death_registration",
+        "service_name_en": "Death registration and certificate",
+        "service_name_bn": "মৃত্যু নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "death_registration::death_registration_application::steps",
+      "text": "মৃত্যু নিবন্ধন Death registration application — process: 1. Apply online for death registration.",
+      "meta": {
+        "category": "death_registration",
+        "service_name_en": "Death registration and certificate",
+        "service_name_bn": "মৃত্যু নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "death_registration_application"
+      }
+    },
+    {
+      "id": "death_registration::death_registration_application::doc0",
+      "text": "মৃত্যু নিবন্ধন Death registration application — required document: [one or more of] A certificate of declaration of death issued by the attending physician  ((ক))",
+      "meta": {
+        "category": "death_registration",
+        "service_name_en": "Death registration and certificate",
+        "service_name_bn": "মৃত্যু নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "death_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "death_registration::death_registration_application::doc1",
+      "text": "মৃত্যু নিবন্ধন Death registration application — required document: [one or more of] A death certificate issued by the relevant medical institution  ((খ))",
+      "meta": {
+        "category": "death_registration",
+        "service_name_en": "Death registration and certificate",
+        "service_name_bn": "মৃত্যু নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "death_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "death_registration::death_registration_application::doc2",
+      "text": "মৃত্যু নিবন্ধন Death registration application — required document: [one or more of] A copy of the post-mortem (ময়না তদন্ত) report for the deceased  ((গ))",
+      "meta": {
+        "category": "death_registration",
+        "service_name_en": "Death registration and certificate",
+        "service_name_bn": "মৃত্যু নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "death_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "death_registration::death_registration_application::doc3",
+      "text": "মৃত্যু নিবন্ধন Death registration application — required document: [one or more of] Any other death-related document the registrar considers necessary  ((ঘ))",
+      "meta": {
+        "category": "death_registration",
+        "service_name_en": "Death registration and certificate",
+        "service_name_bn": "মৃত্যু নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "death_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "death_registration::death_registration_application::doc4",
+      "text": "মৃত্যু নিবন্ধন Death registration application — required document: [if applying after 45 days] A written explanation of the reason for the delay, in addition to the certifications or documents already required  (Rule 11(9))",
+      "meta": {
+        "category": "death_registration",
+        "service_name_en": "Death registration and certificate",
+        "service_name_bn": "মৃত্যু নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "death_registration_application",
+        "doc_source_url": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+      }
+    },
+    {
+      "id": "death_registration::fee_labels",
+      "text": "মৃত্যু নিবন্ধন Death registration and certificate — fee categories: জন্ম বা মৃত্যুর ৪৫ (পঁয়তাল্লিশ) দিন পর্যন্ত কোন ব্যক্তির জন্ম বা মৃত্যু নিবন্ধন - / জন্ম বা মৃত্যুর ৪৫ (পঁয়তাল্লিশ) দিন পর হইতে ৫ (পাঁচ) বৎসর পর্যন্ত কোন ব্যক্তির জন্ম বা মৃত্যু নিবন্ধন (সাকুল্য) - / জন্ম বা মৃত্যুর ৫ (পাঁচ) বৎসর পর হইতে কোন ব্যক্তির জন্ম বা মৃত্যু নিবন্ধন (সাকুল্য) -",
+      "meta": {
+        "category": "death_registration",
+        "service_name_en": "Death registration and certificate",
+        "service_name_bn": "মৃত্যু নিবন্ধন",
+        "office": "রেজিস্ট্রার জেনারেলের কার্যালয়, জন্ম ও মৃত্যু নিবন্ধন (Office of the Registrar General, Birth & Death Registration), Local Government Division",
+        "source_url": "https://orgbdr.gov.bd/pages/static-pages/69cf48059d736d71f1a34c8c",
+        "source_last_updated": "2026-04-04",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "fee_labels",
+        "note": "amounts deliberately excluded from the index; read them from the record"
+      }
+    },
+    {
+      "id": "driving_license::identity",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) | Driving License | বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_0::steps",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) — process: 1. গ্রাহকের বর্তমান/স্থায়ী ঠিকানা অনুযায়ী বিআরটিএ&rsquo;র সংশ্লিষ্ট সার্কেল অফিসে অনলাইন পোর্টাল (bsp.brta.gov.bd) এর মাধ্যমে আবেদন করতে হয়। অনলাইনেই ভিসা, রকেট, বিকাশ ও পোর্টালে উল্লেখিত মাধ্যমে নির্ধারিত ফি পরিশোধ করা যায। আবেদন দাখিল করলে স্বয়ংক্রিয়ভাবে ইস্যুকৃত শিক্ষানবিশ ড্রাইভিং লাইসেন্স প্রিন্ট করে সংগ্রহ করা যায়। 2. Stated service time: ০১ দিন",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "charter_row_0"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_0::doc0",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) — required document: (১) রেজিষ্টার্ড ডাক্তার কর্তৃক মেডিকেল সার্টিফিকেট এর স্ক্যান কপি;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_0::doc1",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) — required document: (২) ন্যাশনাল আইডি কার্ড এর স্ক্যান কপি।",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_0::doc2",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) — required document: (৩) সদ্য তোলা রঙিন (পাসপোর্ট সাইজ ১৫০ কেবি)।",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_0::doc3",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) — required document: (৪) অস্থায়ী ঠিকানার প্রয়োজনীয় প্রমাণক (ভাড়ার চুক্তিপত্র/ইউটিলিটি বিলের কপি) এর স্ক্যান কপি;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_1::steps",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার) — process: 1. বিআরটিএ&rsquo;র সংশ্লিষ্ট সার্কেল অফিসে আবেদন করতে হয়। সংশ্লিষ্ট কর্তৃপক্ষ ড্রাইভিং লাইসেন্স ইস্যু করবে। 2. Stated service time: ৩০ কার্যদিবস",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "charter_row_1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_1::doc0",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার) — required document: (১) পূরণকৃত নির্ধারিত আবেদন ফর্ম (বিআরটিএর ওয়েবসাইট www.brta.gov.bd-তে পাওয়া যাবে);",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_1",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_1::doc1",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার) — required document: (২) ড্রাইভিং কম্পিটেন্সি পরীক্ষায় উত্তীর্ণের প্রমানক;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_1",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_1::doc2",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার) — required document: (৩) নির্ধারিত ফি জমাদানের রশিদ,",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_1",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_1::doc3",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার) — required document: (৪) সদ্য তোলা পাসপোর্ট সাইজ ০৩ কপি রঙ্গীন ছবি;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_1",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_2::steps",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (পেশাদার) — process: 1. বিআরটিএ&rsquo;র সংশ্লিষ্ট সার্কেল অফিসে আবেদন করতে হয়। সংশ্লিষ্ট কর্তৃপক্ষড্রাইভিং লাইসেন্স ইস্যু করবে। 2. Stated service time: ৩০ কার্যদিবস",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "charter_row_2"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_2::doc0",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (পেশাদার) — required document: (১) পূরণকৃত নির্ধারিত আবেদন ফর্ম (বিআরটিএর ওয়েবসাইট www.brta.gov.bd-তে পাওয়া যাবে);",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_2",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_2::doc1",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (পেশাদার) — required document: (২) ড্রাইভিং কম্পিটেন্সি পরীক্ষায় উত্তীর্ণের প্রমানক;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_2",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_2::doc2",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (পেশাদার) — required document: (৩) নির্ধারিত ফি জমাদানের রশিদ,",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_2",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_2::doc3",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (পেশাদার) — required document: (৪) পুলিশ ভেরিফিকেশনের সন্তোষজনক প্রতিবেদন;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_2",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_2::doc4",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স ইস্যু (পেশাদার) — required document: (৫) সদ্যতোলা পাসপোর্ট সাইজ০৩ কপি রঙ্গীন ছবি;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_2",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_3::steps",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (অপেশাদার) — process: 1. ড্রাইভিং লাইসেন্স নবায়ন (অপেশাদার) নবায়নের জন্য গ্রাহককে বিআরটিএ&rsquo;র সংশ্লিষ্ট সার্কেল অফিসে আবেদন করতে হয়। 2. Stated service time: ৩০ কার্যদিবস",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "charter_row_3"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_3::doc0",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (অপেশাদার) — required document: (১) পূরণকৃত নির্ধারিত আবেদন ফর্ম (বিআরটিএর ওয়েবসাইট www.brta.gov.bd-তে পাওয়া যাবে);",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_3",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_3::doc1",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (অপেশাদার) — required document: (২) নির্ধারিত ফি জমাদানের রশিদ,",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_3",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_3::doc2",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (অপেশাদার) — required document: (৩) সদ্যতোলা পাসপোর্ট সাইজ ০২ কপি রঙ্গীন ছবি;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_3",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_4::steps",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (পেশাদার) — process: 1. পেশাদার ড্রাইভিং লাইসেন্স নবায়নের জন্য গ্রাহককে বিআরটিএ&rsquo;র সংশ্লিষ্ট সার্কেল অফিসে আবেদন করতে হয়। 2. Stated service time: ৩০ কার্যদিবস",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "charter_row_4"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_4::doc0",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (পেশাদার) — required document: (১) পূরণকৃত নির্ধারিত আবেদন ফর্ম (বিআরটিএর ওয়েবসাইট www.brta.gov.bd-তে পাওয়া যাবে);",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_4",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_4::doc1",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (পেশাদার) — required document: (২) ড্রাইভিং কম্পিটেন্সি পরীক্ষায় উত্তীর্ণের প্রমানক;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_4",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_4::doc2",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (পেশাদার) — required document: (৩) নির্ধারিত ফি জমা দানের রশিদ,",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_4",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_4::doc3",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (পেশাদার) — required document: (৪) রেজিষ্টার্ড ডাক্তার কর্তৃক মেডিকেল সার্টিফিকেট দাখিল;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_4",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_4::doc4",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ড্রাইভিং লাইসেন্স নবায়ন (পেশাদার) — required document: (৫) সদ্য তোলা পাসপোর্ট সাইজ ০২ কপি রঙ্গীন ছবি;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_4",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::steps",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — process: 1. সেবাগ্রহণকারী বিআরটিএ সদর কার্যালয় অফিসে নির্ধারিত ফরমে আবেদন করেন। আবেদনটি যাচাই-বাছাইকরতঃ ইন্সট্রাক্টর লাইসেন্স ইস্যু করা হয়ে থাকে। 2. Stated service time: ৩০ কার্যদিবস",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "charter_row_5"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::doc0",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — required document: (১) নির্ধারিত ফর্মের (Form I.L.A)-এ আবেদন (বিআরটিএর ওয়েবসাইট www.brta.gov.bd-তে পাওয়া যাবে);",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_5",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::doc1",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — required document: (২) পাসপোর্ট সাইজের ০২ (দুই) কপি এবং স্ট্যাম্প সাইজের ০২ (দুই) কপি রঙ্গীন ছবি;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_5",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::doc2",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — required document: (৩) নির্ধারিত ফি জমাদানের রশিদ (বিআরটিএ&rsquo;র কপি)",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_5",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::doc3",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — required document: (৪)পেশাদার লাইসেন্সের সত্যায়িত ফটোকপি;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_5",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::doc4",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — required document: (৫)ভারী মোটরযান চালনার ০৩ (তিন) বছরের অভিজ্ঞতার সদন;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_5",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::doc5",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — required document: (৬) শিক্ষাগত যোগ্যতার সনদপত্রের সত্যায়িত ফটোকপি (এসএসসি বা সমমান কারিগরী জ্ঞান সম্পন্ন হতে হবে);",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_5",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::doc6",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — required document: (৭) পূর্ণাঙ্গ জীবন বৃত্তান্ত",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_5",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::charter_row_5::doc7",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) ইন্সট্রাক্টর লাইসেন্স ইস্যু — required document: (৮) প্রথম শ্রেণীর গেজেটেড কর্মকর্তার নিকট হতে চারিত্রিক সনদপত্র;",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_5",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "driving_license::fee_labels",
+      "text": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) Driving License — fee categories: শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) / শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার) / ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার) / ড্রাইভিং লাইসেন্স ইস্যু (পেশাদার) / ড্রাইভিং লাইসেন্স নবায়ন (অপেশাদার) / ড্রাইভিং লাইসেন্স নবায়ন (পেশাদার) / ইন্সট্রাক্টর লাইসেন্স ইস্যু",
+      "meta": {
+        "category": "driving_license",
+        "service_name_en": "Driving License",
+        "service_name_bn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স ইস্যু (অপেশাদার/পেশাদার)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "fee_labels",
+        "note": "amounts deliberately excluded from the index; read them from the record"
+      }
+    },
+    {
+      "id": "income_tax_return::identity",
+      "text": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন) | Income tax return filing (e-Return) | জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+      "meta": {
+        "category": "income_tax_return",
+        "service_name_en": "Income tax return filing (e-Return)",
+        "service_name_bn": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন)",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/uploads/news-scroller/FAQ_e-Return_-_2026.pdf",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "income_tax_return::ereturn_online_filing::steps",
+      "text": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন) Online return filing (e-Return) — process: 1. Register on the e-Return portal using your TIN and a mobile number registered against your own NID. 2. Sign in and update your profile details. 3. Enter income by category, investments, family expenditure, assets and liabilities, then submit the return. 4. Download the Acknowledgement slip and Tax certificate after submission.",
+      "meta": {
+        "category": "income_tax_return",
+        "service_name_en": "Income tax return filing (e-Return)",
+        "service_name_bn": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন)",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/uploads/news-scroller/FAQ_e-Return_-_2026.pdf",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "ereturn_online_filing"
+      }
+    },
+    {
+      "id": "income_tax_return::ereturn_online_filing::doc0",
+      "text": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন) Online return filing (e-Return) — required document: TIN (Taxpayer's Identification Number)",
+      "meta": {
+        "category": "income_tax_return",
+        "service_name_en": "Income tax return filing (e-Return)",
+        "service_name_bn": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন)",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/uploads/news-scroller/FAQ_e-Return_-_2026.pdf",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "ereturn_online_filing",
+        "doc_source_url": "https://nbr.gov.bd/uploads/news-scroller/FAQ_e-Return_-_2026.pdf"
+      }
+    },
+    {
+      "id": "income_tax_return::ereturn_online_filing::doc1",
+      "text": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন) Online return filing (e-Return) — required document: A mobile phone number registered against your own NID (used for registration)",
+      "meta": {
+        "category": "income_tax_return",
+        "service_name_en": "Income tax return filing (e-Return)",
+        "service_name_bn": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন)",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/uploads/news-scroller/FAQ_e-Return_-_2026.pdf",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "ereturn_online_filing",
+        "doc_source_url": "https://nbr.gov.bd/uploads/news-scroller/FAQ_e-Return_-_2026.pdf"
+      }
+    },
+    {
+      "id": "income_tax_return::fee_labels",
+      "text": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন) Income tax return filing (e-Return) — fee categories: Online return filing",
+      "meta": {
+        "category": "income_tax_return",
+        "service_name_en": "Income tax return filing (e-Return)",
+        "service_name_bn": "আয়কর রিটার্ন দাখিল (ই-রিটার্ন)",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/uploads/news-scroller/FAQ_e-Return_-_2026.pdf",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "fee_labels",
+        "note": "amounts deliberately excluded from the index; read them from the record"
+      }
+    },
+    {
+      "id": "land_record::identity",
+      "text": "খতিয়ান / পর্চা (সার্টিফাইড কপি) | Land record (khatian) certified copy / porcha | ভূমি রেকর্ড ও জরিপ অধিদপ্তর (Directorate of Land Records & Surveys), Ministry of Land",
+      "meta": {
+        "category": "land_record",
+        "service_name_en": "Land record (khatian) certified copy / porcha",
+        "service_name_bn": "খতিয়ান / পর্চা (সার্টিফাইড কপি)",
+        "office": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর (Directorate of Land Records & Surveys), Ministry of Land",
+        "source_url": "https://dlrs.gov.bd/pages/static-pages/6922dfd8933eb65569e2449b",
+        "source_last_updated": "2014-04-01",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "land_record::khatian_certified_copy::steps",
+      "text": "খতিয়ান / পর্চা (সার্টিফাইড কপি) Obtaining a khatian / certified copy (porcha) — process: 1. During final publication (চূড়ান্ত প্রকাশনা), the khatian may be collected from the final publication camp under the Upazila Settlement Office, on payment of the government-fixed price. 2. After final publication ends, the records are transferred to the office of the relevant Deputy Commissioner (DC). 3. Once transferred, the certified copy (porcha) of the khatian is collected from the DC's Record Room.",
+      "meta": {
+        "category": "land_record",
+        "service_name_en": "Land record (khatian) certified copy / porcha",
+        "service_name_bn": "খতিয়ান / পর্চা (সার্টিফাইড কপি)",
+        "office": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর (Directorate of Land Records & Surveys), Ministry of Land",
+        "source_url": "https://dlrs.gov.bd/pages/static-pages/6922dfd8933eb65569e2449b",
+        "source_last_updated": "2014-04-01",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "khatian_certified_copy"
+      }
+    },
+    {
+      "id": "land_record::fee_labels",
+      "text": "খতিয়ান / পর্চা (সার্টিফাইড কপি) Land record (khatian) certified copy / porcha — fee categories: Certified copy of khatian (porcha)",
+      "meta": {
+        "category": "land_record",
+        "service_name_en": "Land record (khatian) certified copy / porcha",
+        "service_name_bn": "খতিয়ান / পর্চা (সার্টিফাইড কপি)",
+        "office": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর (Directorate of Land Records & Surveys), Ministry of Land",
+        "source_url": "https://dlrs.gov.bd/pages/static-pages/6922dfd8933eb65569e2449b",
+        "source_last_updated": "2014-04-01",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "fee_labels",
+        "note": "amounts deliberately excluded from the index; read them from the record"
+      }
+    },
+    {
+      "id": "nid_correction::identity",
+      "text": "এনআইডি সংশোধন | NID correction | Bangladesh Election Commission",
+      "meta": {
+        "category": "nid_correction",
+        "service_name_en": "NID correction",
+        "service_name_bn": "এনআইডি সংশোধন",
+        "office": "Bangladesh Election Commission",
+        "source_url": "https://www.ecs.gov.bd/",
+        "source_last_updated": null,
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "unverified",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "passport::identity",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু | Passport (e-Passport / MRP) issue and re-issue | ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::steps",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — process: 1. Submit the application online, or offline on the printed PDF form. Handwritten applications are NOT accepted. 2. Pay the passport fee and obtain the A-Challan (Automated Challan) copy. Payment is possible online, or at One Bank, Premier Bank, Sonali Bank, Trust Bank, Bank Asia and Dhaka Bank. 3. Attend in person at the Divisional or Regional Passport Office for your area of residence, carrying ORIGINAL NID/BRC for inspection.",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "epassport_issue_reissue"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc0",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ১) অনলাইনে /অফলাইনে (PDF) পূরণকৃত আবেদন ১ কপি, উল্লেখ্য হাতে লেখা আবেদন গ্রহণযোগ্য নয়।",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc1",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ২) ১ (এক) কপি জাতীয় পরিচয়পত্র (NID-২০ বছরের ঊর্ধে) অথবা ডিজিটাল জন্ম নিবন্ধন সনদ (BRC-১৮ বছরের নিন্মে) ; ১৮-২০ বছরের বয়সীদের ক্ষেত্রে NID/BRC প্রযোজ্য হবে। * অপ্রাপ্ত বয়স্ক (১৮ বছরের কম) যাদের NID নাই, তার পিতা / মাতা’র জাতীয় পরিচয়পত্র (NID) প্রযোজ্য হবে। * উল্লেখ্য যে NID/BRC এর মূল কপি প্রদর্শন বাধ্যতামূলক;",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc2",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ৩) পাসপোর্ট ফি জমাদানের এ-চালান (Automated challan) কপি।",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc3",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ৪) মন্ত্রণালয়/বিভাগ/অধিদপ্তর/ পরিদপ্তর/ অধস্তন অফিস এবং স্বায়ত্বশাসিত সংস্হা/ কর্পোরেশনে কর্মরত কর্মকর্তা/কর্মচারীদের ক্ষেত্রেঃ * আবেদনকারীর অনুকুলে প্রদত্ত অনাপত্তিসনদ (NOC/GO)ইস্যুকারী কর্তৃপক্ষের ওয়েবসাইটে আপলোড/প্রদর্শিত থাকা। * ১ সেট আবেদন ফরম * ১ (এক) কপি জাতীয় পরিচয়পত্র",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc4",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ৫) কেবলমাত্র সরকারী কর্মকর্তা-কর্মচারীদের নির্ভরশীল স্বামী/স্ত্রী এর ক্ষেত্রেঃ * ইস্যুকারী কর্তৃপক্ষের ওয়েবসাইটে প্রদর্শিত মূল অনাপত্তি সনদ (NOC) * ১ সেট আবেদন ফরম * ১ (এক) কপি জাতীয় পরিচয়পত্র (NID-২০ বছরের ঊর্ধে)/ * ১৮-২০ বছরের বয়সীদের ক্ষেত্রে NID/BRC প্রযোজ্য হবে।",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc5",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ৬) সরকারী কর্মকর্তা-কর্মচারীদের নির্ভরশীল (১৫ বছরের কম বয়সী) সন্তানের ক্ষেত্রেঃ * ১ সেট আবেদনফরম * ইস্যুকারী কর্তৃপক্ষের ওয়েবসাইটে প্রদর্শিত মূল অনাপত্তি সনদ (NOC) * ডিজিটাল জন্ম নিবন্ধনের (BRC) ফটোকপি * পিতা / মাতা‘র জাতীয় পরিচয়পত্র (NID) প্রযোজ্য হবে।",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc6",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ৭) কেবলমাত্র অবসরপ্রাপ্ত সরকারী কর্মকর্তা-কর্মচারীদের নির্ভরশীল স্বামী/স্ত্রী‘র ক্ষেত্রেঃ ১ সেট আবেদনফরম; ১ সেট জাতীয় পরিচয় পত্র অবসর আদেশ/পেনশন বইয়ের ফটোকপি, এক্ষেত্রে অবসর আদেশ/পেনশন বইয়ের মূল কপি প্রদর্শন বাধ্যতামূলক;",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc7",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ৮) দত্তক/ অভিভাবকত্ব গ্রহণের ক্ষেত্রে স্বরাষ্ট্র মন্ত্রণালয় সুরক্ষা সেবা বিভাগ কর্তৃক জারিকৃত আদেশ।",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc8",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ৯) রি-ইস্যু আবেদনের ক্ষেত্রেঃ অপরিবর্তিত তথ্যের আবেদনে ফরম পূরণ (পৃষ্ঠা-১ এর ক্রমিক ১-৩৭) সহ পাসপোর্ট এর ফটোকপি। পরিবর্তিত তথ্যের আবেদনে ফরম (পৃষ্ঠা-২ও ৩) পূরণসহ পাসপোর্ট এর ফটোকপি। পূর্ববর্তী মূল পাসপোর্ট প্রদর্শন বাধ্যতামূলক| উল্লেখ্য, হারানো (LOST) ই-পাসপোর্ট এর ক্ষেত্রে মূল জিডি (GD) দাখিল করতে হবে|",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc9",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ১০) ০৬ বছর বয়সের নিন্মের আবেদনের ক্ষেত্রে ৩R সাইজের ল্যাব প্রিন্ট রঙ্গিন ছবি।",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::epassport_issue_reissue::doc10",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু e-Passport issue / re-issue — required document: ১১) তথ্য পরিবর্তনের ক্ষেত্রে স্বরাষ্ট্র মন্ত্রণালয় কর্তৃক জারিকৃত পরিপত্র, (৫৮.০০.০০০০.০৪৩.৯৯.০০২.২৪.(অংশ-২).৯৭; তারিখ: ১৮ ফেব্রুয়ারি ২০২৫) এর নির্দেশনা মোতাবেক প্রযোজ্য ডকুমেন্ট দাখিল করতে হবে।",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "epassport_issue_reissue",
+        "doc_source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86"
+      }
+    },
+    {
+      "id": "passport::fee_labels",
+      "text": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু Passport (e-Passport / MRP) issue and re-issue — fee categories: 48-page, 5-year validity, Regular delivery (21 days) / 48-page, 5-year validity, Express delivery (10 days) / 48-page, 5-year validity, Super Express delivery (2 days) / 48-page, 10-year validity, Regular delivery (21 days) / 48-page, 10-year validity, Express delivery (10 days) / 48-page, 10-year validity, Super Express delivery (2 days) / 64-page, 5-year validity, Regular delivery (21 days) / 64-page, 5-year validity, Express delivery (10 days) / 64-page, 5-year validity, Super Express delivery (2 days) / 64-page, 10-year validity, Regular delivery (21 days) / 64-page, 10-year validity, Express delivery (10 days) / 64-page, 10-year validity, Super Express delivery (2 days)",
+      "meta": {
+        "category": "passport",
+        "service_name_en": "Passport (e-Passport / MRP) issue and re-issue",
+        "service_name_bn": "ইলেকট্রনিক (E-Passport) পাসপোর্ট ইস্যু",
+        "office": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর (Department of Immigration and Passports)",
+        "source_url": "https://dip.gov.bd/pages/static-pages/6922e033933eb65569e25f86",
+        "source_last_updated": "2026-05-11",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "fee_labels",
+        "note": "amounts deliberately excluded from the index; read them from the record"
+      }
+    },
+    {
+      "id": "tin_registration::identity",
+      "text": "ই-টিআইএন নিবন্ধন | e-TIN registration | জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+      "meta": {
+        "category": "tin_registration",
+        "service_name_en": "e-TIN registration",
+        "service_name_bn": "ই-টিআইএন নিবন্ধন",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/information-library/cconbr/eng",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "tin_registration::new_etin_registration::steps",
+      "text": "ই-টিআইএন নিবন্ধন New e-TIN registration — process: 1. Register online for a new e-TIN through the NBR taxpayer portal. 2. Service is delivered through automation/online; the charter records the delivery time as immediate (তাৎক্ষণিক).",
+      "meta": {
+        "category": "tin_registration",
+        "service_name_en": "e-TIN registration",
+        "service_name_bn": "ই-টিআইএন নিবন্ধন",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/information-library/cconbr/eng",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "new_etin_registration"
+      }
+    },
+    {
+      "id": "tin_registration::new_etin_registration::doc0",
+      "text": "ই-টিআইএন নিবন্ধন New e-TIN registration — required document: National ID card (আইডি কার্ড)",
+      "meta": {
+        "category": "tin_registration",
+        "service_name_en": "e-TIN registration",
+        "service_name_bn": "ই-টিআইএন নিবন্ধন",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/information-library/cconbr/eng",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "new_etin_registration",
+        "doc_source_url": "https://nbr.gov.bd/uploads/cconbr/Final_Draft_Citizen_2026.pdf"
+      }
+    },
+    {
+      "id": "tin_registration::new_etin_registration::doc1",
+      "text": "ই-টিআইএন নিবন্ধন New e-TIN registration — required document: Trade licence (ট্রেড লাইসেন্স) - for business taxpayers",
+      "meta": {
+        "category": "tin_registration",
+        "service_name_en": "e-TIN registration",
+        "service_name_bn": "ই-টিআইএন নিবন্ধন",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/information-library/cconbr/eng",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "new_etin_registration",
+        "doc_source_url": "https://nbr.gov.bd/uploads/cconbr/Final_Draft_Citizen_2026.pdf"
+      }
+    },
+    {
+      "id": "tin_registration::fee_labels",
+      "text": "ই-টিআইএন নিবন্ধন e-TIN registration — fee categories: New e-TIN registration",
+      "meta": {
+        "category": "tin_registration",
+        "service_name_en": "e-TIN registration",
+        "service_name_bn": "ই-টিআইএন নিবন্ধন",
+        "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+        "source_url": "https://nbr.gov.bd/information-library/cconbr/eng",
+        "source_last_updated": "2026-07-16",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "fee_labels",
+        "note": "amounts deliberately excluded from the index; read them from the record"
+      }
+    },
+    {
+      "id": "vehicle_registration::identity",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) | Vehicle Registration | বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "identity"
+      }
+    },
+    {
+      "id": "vehicle_registration::charter_row_0::steps",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) — process: 1. সেবাগ্রহণকারীকে প্রয়োজনীয় রেজিস্ট্রেশন ফি জমা প্রদান করে সংশ্লিষ্ট বিআরটিএ অফিসে নির্ধারিত ফরমে ডিলার/শোরুমের মাধ্যমে অনলাইনে পূরণ করে প্রয়োজনীয় কাগজপত্রসহ মোটরসাইকেলের নিবন্ধনের জন্য আবেদন করতে হয়। আবেদনটি যাচাই-বাছাই করে সঠিক পাওয়াগেলে করতে হয়। মোটরসাইকেলটি পরিদর্শন করার পর মোটরযান পরিদর্শকের সুপারিশ সাপেক্ষে সহকারী পরিচালক(ইঞ্জি:) কর্তৃক রেজিস্ট্রেশনের প্রদান করা হয়। 2. Stated service time: ০১ কার্যদিবস",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "charter_row_0"
+      }
+    },
+    {
+      "id": "vehicle_registration::charter_row_0::doc0",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) — required document: (১) মোটর সাইকেল নিবন্ধনের ক্ষেত্রে কমপক্ষে লার্নার লাইসেন্স থাকতে হবে। (ক) একাধিক ব্যক্তি যৌথভাবে কোনো মোটরসাইকেলের মালিক হলে সে-ক্ষেত্রে একজনের নামে রেজিস্ট্রেশনের জন্য সকলের সম্মতি সম্বলিত হলফনামা; (খ) প্রতিষ্ঠান/কোম্পানির ক্ষেত্রে স্বাক্ষর ও সিলমোহর; (গ) ব্যাংক অথবা অর্থলগ্নি প্রতিষ্ঠানের সাথে গাড়ির মালিকানার আর্থিক সংশ্লিষ্টতা থাকলে সংশ্লিষ্ট প্রতিষ্ঠানের প্যাডে রেজিস্ট্রেশন কর্তৃপক্ষ বরাবর আ",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "vehicle_registration::charter_row_0::doc1",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) — required document: (২) বিল অব এন্ট্রি, ইনভয়েস, বিল অব লেডিং ও এলসিএ কপি;",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "vehicle_registration::charter_row_0::doc2",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) — required document: (৩) সেল সার্টিফিকেট /সেল ইন্টিমেশন/বিক্রয় প্রমাণপত্র (আমদানিকারক/বিক্রেতা প্রদত্ত);",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "vehicle_registration::charter_row_0::doc3",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) — required document: (৪) প্যাকিং লিস্ট, ডেলিভারী চালান ও গেইট পাশ (সিকেডি গাড়ির ক্ষেত্রে);",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "vehicle_registration::charter_row_0::doc4",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) — required document: (৫) বিদেশি নাগরিকের নামে রেজিস্ট্রেশন হলে বাংলাদেশের ওয়ার্ক পারমিট এবংভিসার মেয়াদের কপি; (৭) বিক্রকারী প্রতিষ্ঠানের ভ্যাট পরিশোধের চালান; (৮) প্রযোজ্য রেজিস্ট্রেশন ফি জমাদানের রসিদ; (৯) ব্যক্তি মালিকানাধীন আবেদনকারীর ক্ষেত্রে জাতীয় পরিচয়পত্র/ পাসপোর্ট/ টেলিফোন বিল/ বিদ্যুৎ বিল ইত্যাদির যে-কোনটির সত্যায়িত ফটোকপি এবং মালিক প্রতিষ্ঠান হলে প্রতিষ্ঠানের প্যাডে পত্র;",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_0",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "vehicle_registration::charter_row_1::steps",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) মোটরযানের রেজিস্ট্রেশন ( মোটরসাইকেল ব্যতিত ) — process: 1. সেবাগ্রহণকারীকে প্রয়োজনীয় রেজিস্ট্রেশন ফি জমা প্রদান করে সংশ্লিষ্ট বিআরটিএ অফিসে নির্ধারিত ফরমে ডিলার/শোরুমের মাধ্যমে অনলাইনে পূরণ করে প্রয়োজনীয় কাগজপত্রসহ মোটরসাইকেলের নিবন্ধনের জন্য আবেদন করতে হয়। আবেদনটি যাচাই-বাছাই করে সঠিক পাওয়াগেলে মোটরযানটি পরিদর্শন করার পর মোটরযান পরিদর্শকের সুপারিশ সাপেক্ষে সহকারী পরিচালক(ইঞ্জি:) কর্তৃক রেজিস্ট্রেশনের প্রদান করা হয়। 2. Stated service time: ০১ কার্যদিবস",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "steps",
+        "variant_id": "charter_row_1"
+      }
+    },
+    {
+      "id": "vehicle_registration::charter_row_1::doc0",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) মোটরযানের রেজিস্ট্রেশন ( মোটরসাইকেল ব্যতিত ) — required document: ( ১ ) মালিক ও আমদানিকারক / ডিলার কর্তৃক যথাযথভাবে পূরণ ও স্বাক্ষর করা নির্ধারিত আবেদনপত্র (H-Form)( বিআরটিএর ওয়েবসাইট www.brta.gov.bd-তে পাওয়া যাবে); ( ২ ) ব্যক্তি মালিকানাধীন আবেদনকারীর ক্ষেত্রে (ক)জাতীয় পরিচয়পত্র / পাসপোর্ট সত্যায়িত ফটোকপি; (খ)ঠিকানার প্রমানক হিসেবেইউটিলিটি বিল (টেলিফোন বিল / বিদ্যুৎ বিল ইত্যাদি) এর সত্যায়িত ফটোকপি; (গ) একাধিক ব্যক্তি যৌথভাবে কোনো গাড়ির মালিক হলে সে - ক্ষ",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "required_doc",
+        "variant_id": "charter_row_1",
+        "doc_source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1"
+      }
+    },
+    {
+      "id": "vehicle_registration::fee_labels",
+      "text": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) Vehicle Registration — fee categories: মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল) / মোটরযানের রেজিস্ট্রেশন ( মোটরসাইকেল ব্যতিত )",
+      "meta": {
+        "category": "vehicle_registration",
+        "service_name_en": "Vehicle Registration",
+        "service_name_bn": "মোটরযানের রেজিস্ট্রেশন (মোটরসাইকেল)",
+        "office": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (Bangladesh Road Transport Authority)",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/সেবা-প্রদান-প্রতিশ্রুতি-880924-6922d8a9933eb65569df99e1",
+        "source_last_updated": "2021-09-23",
+        "last_scraped_date": "2026-09-05",
+        "verification_status": "source_read",
+        "chunk_kind": "fee_labels",
+        "note": "amounts deliberately excluded from the index; read them from the record"
+      }
+    }
+  ]
+}

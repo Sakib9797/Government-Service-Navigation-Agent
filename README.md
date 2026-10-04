@@ -171,6 +171,8 @@ Answers are built from structured **service records** that follow
 ```
 GSNA/
 ├── app.py                  # Gradio web UI (Bengali-first) + "report incorrect info"
+├── streamlit_app.py        # Same UI for Streamlit Community Cloud hosting
+├── requirements.txt        # Runtime dependencies for the hosted app
 ├── graph.py                # LangGraph pipeline; also a CLI entry point
 ├── agents/                 # The five pipeline agents + ingestion agent
 │   ├── intent_classifier.py
@@ -188,7 +190,7 @@ GSNA/
 ├── schema/                 # JSON schema for a service record
 ├── eval/                   # Evaluation script + test questions
 ├── .env.example            # Environment variable template
-└── data/                   # (not included in this repository, see below)
+└── data/                   # Only taxonomy.json and services/ are included, see below
 ```
 
 ---
@@ -276,6 +278,26 @@ Open **http://127.0.0.1:7860** in your browser, type a question or click an exam
 You can expand **"Pipeline trace"** to see how the answer was produced, and
 **"Report incorrect information"** to flag a mistake for human review.
 
+To get a temporary public link (up to 1 week, only while your computer runs the app):
+
+```bash
+python app.py --share
+```
+
+### Free hosting on Streamlit Community Cloud
+
+`streamlit_app.py` is the same interface for [Streamlit Community Cloud](https://share.streamlit.io),
+which gives a permanent public link for free.
+
+1. Sign in at https://share.streamlit.io with your GitHub account.
+2. Click **Create app**, pick this repository, branch `main` and file `streamlit_app.py`.
+3. Under **Advanced settings**, choose Python **3.12**. Optionally add the secret
+   `GROQ_API_KEY = "gsk_..."` to enable the LLM answer layer.
+4. Click **Deploy**. The first build takes several minutes.
+
+Apps sleep after 12 hours without visitors; the next visitor wakes it with one click.
+Reports sent through the app are lost when the app restarts.
+
 ### Command line
 
 ```bash
@@ -356,9 +378,10 @@ The evaluation reports four separate scores:
 
 ## Data availability
 
-The `data/` directory (service records, taxonomy, source audit, PDF index and cached
-pages) is **not included** in this repository. To run the project you need to
-supply your own `data/` directory:
+The repository includes only what the app needs to answer questions:
+`data/taxonomy.json`, the service records in `data/services/` and the search index in
+`rag/index/`. The rest of `data/` (source audit, PDF index, cached pages, drafts and
+user reports) is **not included**. The full layout is:
 
 ```
 data/

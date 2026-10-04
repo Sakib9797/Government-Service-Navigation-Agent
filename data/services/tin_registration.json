@@ -1,0 +1,75 @@
+{
+  "category": "tin_registration",
+  "service_name_en": "e-TIN registration",
+  "service_name_bn": "ই-টিআইএন নিবন্ধন",
+  "office": "জাতীয় রাজস্ব বোর্ড (National Board of Revenue, NBR)",
+  "locality": null,
+  "variants": [
+    {
+      "variant_id": "new_etin_registration",
+      "label_en": "New e-TIN registration",
+      "label_bn": "নতুন ই-টিআইএন রেজিস্ট্রেশন",
+      "required_docs": [
+        {
+          "doc": "National ID card (আইডি কার্ড)",
+          "mandatory": true,
+          "source_url": "https://nbr.gov.bd/uploads/cconbr/Final_Draft_Citizen_2026.pdf"
+        },
+        {
+          "doc": "Trade licence (ট্রেড লাইসেন্স) - for business taxpayers",
+          "mandatory": false,
+          "source_url": "https://nbr.gov.bd/uploads/cconbr/Final_Draft_Citizen_2026.pdf"
+        }
+      ],
+      "steps": [
+        {
+          "step": "Register online for a new e-TIN through the NBR taxpayer portal.",
+          "where": "https://secure.incometax.gov.bd/TINHome",
+          "source_url": "https://nbr.gov.bd/uploads/cconbr/Final_Draft_Citizen_2026.pdf"
+        },
+        {
+          "step": "Service is delivered through automation/online; the charter records the delivery time as immediate (তাৎক্ষণিক).",
+          "where": "https://incometax.gov.bd / https://etaxnbr.gov.bd",
+          "source_url": "https://nbr.gov.bd/uploads/cconbr/Final_Draft_Citizen_2026.pdf"
+        }
+      ]
+    }
+  ],
+  "fees": [
+    {
+      "fee_key": "new_etin_registration",
+      "label_en": "New e-TIN registration",
+      "label_bn": "বিনামূল্যে",
+      "amount_bdt": 0,
+      "includes_vat": null,
+      "source_url": "https://nbr.gov.bd/information-library/cconbr/eng",
+      "source_document": "https://nbr.gov.bd/uploads/cconbr/Final_Draft_Citizen_2026.pdf",
+      "source_last_updated": "2026-07-16",
+      "verification": {
+        "status": "source_read",
+        "verified_by": "tools/build_records.py",
+        "verified_date": "2026-09-05",
+        "method": "NBR Citizen Charter PDF, fee column decoded via tools/bn_pdf.py reads বিনামূল্যে (free)"
+      }
+    }
+  ],
+  "office_location": "Income tax circle office (অধিক্ষেত্র) for the taxpayer's jurisdiction",
+  "contact": "e-Return helpdesk 09643717171; NBR Kor-17 +88-02-22221770 1; info@incometax.gov.bd",
+  "apply_portal": "https://secure.incometax.gov.bd/TINHome",
+  "source_url": "https://nbr.gov.bd/information-library/cconbr/eng",
+  "last_scraped_date": "2026-09-05",
+  "source_last_updated": "2026-07-16",
+  "verification": {
+    "status": "source_read",
+    "verified_by": "tools/build_records.py",
+    "verified_date": "2026-09-05",
+    "method": "NBR Citizen Charter index page + charter PDF"
+  },
+  "notes": [
+    "ANTI-DALAL FACT (sourced): NBR's own citizen charter lists new e-TIN registration at বিনামূল্যে - free of charge. Any fee demanded for obtaining a TIN is not an official fee.",
+    "ENCODING RESOLVED (2026-09-05): the charter PDF (826863 bytes, 18 pages) ships a broken ToUnicode CMap, which originally rendered this fee as mojibake ('তবনামূদল্য'). tools/bn_pdf.py now decodes it from the embedded font's glyph names and GSUB table: the e-TIN row's fee column reads বিনামূল্যে cleanly, 63 clean occurrences document-wide. The 'free' reading is confirmed, no longer inferred.",
+    "The published filename is 'Final_Draft_Citizen_2026.pdf' - NBR labels it a DRAFT. Treat accordingly.",
+    "Document list is partial: only the clearly-legible items are recorded.",
+    "Residual decoder limitation: ~11% of pre-base vowel signs are still mis-ordered, so treat long prose from this PDF as indicative; short fee vocabulary (বিনামূল্যে, টাকা, numerals) decodes reliably."
+  ]
+}

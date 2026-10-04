@@ -10,12 +10,16 @@ __pycache__/
 .venv/
 venv/
 
-# Data is kept private and not published with the code
-data/
-rag/index/
+# Data is kept private, except the files the hosted app reads at runtime
+data/*
+!data/taxonomy.json
+!data/services/
 
 # Private project notes
 explain.md
+
+# Gradio share-link certificate, created on first `python app.py --share`
+.gradio/
 
 # Local editor/tooling artefacts
 .vscode/
